@@ -1,8 +1,8 @@
-import { SECRET_API_KEY } from "$env/static/private";
+import { env } from "$env/dynamic/private";
 
 export const load = async (serverLoadEvent) => {
     const { fetch } = serverLoadEvent;
-    const API_KEY = SECRET_API_KEY;
+    const API_KEY = env.SECRET_API_KEY;
     const city = serverLoadEvent.url.searchParams.get("city");
     if (!city) {
         return {
