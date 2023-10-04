@@ -46,14 +46,14 @@
         <span>Feels like: </span>
         {weatherData.main.feels_like} °C
       </li>
-      <li><span>Cloud: </span>{weatherData.clouds.all} %</li>
+      <li><span>Clouds: </span>{weatherData.clouds.all} %</li>
       <li>
         <span>Humidity: </span>
         {weatherData.main.humidity} %
       </li>
       <li>
         <span>Pressure: </span>
-        {weatherData.main.pressure} hPa
+        {(weatherData.main.pressure * 0.000987).toFixed(2)} atm
       </li>
       <li>
         <span>Wind speed: </span>
