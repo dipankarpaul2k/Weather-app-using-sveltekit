@@ -11,6 +11,11 @@
     href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
     rel="stylesheet"
   />
+  <meta name="title" content="Weather App | SvelteKit" />
+  <meta name="description" content="A simple weather app using penweathermap api" />
+  <meta name="keywords" content="HTML, CSS, JavaScript, svelte, sveltekit, api, vite" />
+  <meta name="author" content="Dipankar Paul" />
+  <meta name="image" content="https://cdn-icons-png.flaticon.com/128/9176/9176568.png" />
 </svelte:head>
 
 <Header />
